@@ -55,7 +55,7 @@ const portfolioData = {
       "I'm a passionate junior database manager with a strong foundation in data management and database administration. My journey in tech started with a fascination for how data drives business decisions.",
       "I specialize in database design, optimization, and maintenance. I enjoy working with SQL databases, ensuring data integrity, and creating efficient database structures that support scalable applications.",
     ],
-    experience: '1+ Year',
+    experience: '3 Years',
     projectsCount: '15+',
     clientsCount: '10+',
     skills: [
@@ -407,12 +407,7 @@ export default function Home() {
                       </span>
                     ))}
                   </div>
-                  <a
-                    href={project.link}
-                    className="inline-flex items-center text-blue-400 hover:text-blue-300 font-semibold"
-                  >
-                    View Project →
-                  </a>
+                 
                 </div>
               </div>
             ))}
